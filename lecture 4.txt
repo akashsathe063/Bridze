@@ -1,0 +1,43 @@
+Shell Script
+
+nano copyfile.sh = create a shell file give name is a copyfile.sh
+
+#!/bin/bash-x = this line is a debugg option for this line we can constatntly run bebugg optio
+
+for file in `ls *.txt`
+do
+        foldername =`echo $file | awk -F . '{print $1}'`;
+        rm -r $folderName;
+        mkdir $folderName;
+        cp $file $folderName;
+done
+
+this is a code to create a folder and assign the file to in respective folder
+
+less copyfile.sh = shows a code
+
+chmode +x = it is change the mode 
+
+./copyfile = it is execute the shell script
+
+
+terminal commands condition ad loops:-
+
+  in this program we use if ..... then... else. condition
+
+for file in `ls *.txt`
+do
+        foldername =`echo $file | awk -F . '{print $1}'`;
+if [ -d $folderName]
+
+then
+        rm -r $folderName;
+fi  == fi stands for end of the if condition or you say that if condition is completed
+        mkdir $folderName;
+        cp $file $folderName;
+done
+
+
+   
+
+ 

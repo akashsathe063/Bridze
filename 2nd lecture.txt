@@ -1,0 +1,28 @@
+nano Hello.java = using we create file as well as it is read and write in terminal. it is also text editor
+                   it is use to shell Scripting 
+
+
+nano -T 3 Hello.java = it is gives 3 tab space
+
+ps = it is shows a process
+
+ ps -elf =  it shows the all the process
+
+jobs =  tell them what is process is stopped or running
+
+fb %1 = foreground it again started the program %1 denotes the job number
+
+java Hello.java& = running the java program in Background using &
+
+ jobs
+[1]+  Running                 java Hello.java &= it shows the process is running on the background
+
+kill 713 = it is termiated the process by using process id
+
+killall = if multiple process are runing simultaniously then killall command stop the all process at a time
+
+awk = this command is most important to select the data or processing the data 
+
+history = tells us all the commands we have executed in our terminal
+
+

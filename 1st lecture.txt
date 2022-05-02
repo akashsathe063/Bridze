@@ -1,0 +1,85 @@
+ls = list file we have to see the data list within the current file
+
+ls -l = it is show file in long format
+
+ls -p = it is show file in short format
+
+ls -a =  we can see hidden file
+
+ls -al =  show all the file with hidden files in long format
+
+ls ~ = show the data list within the home directory
+
+ls .. = shows the data list within the parent directory
+
+cd ~ = it is goes to direct home directory
+
+cd -  =  come back to terminal commands
+
+pwd = shows current working directory
+
+mkdir random name =  we can create new directory
+
+rm -r directory name = we can delete the directory
+
+mkdir -p temp/temp = we ca create directory inside directory
+
+touch a.txt b.txt = create any type of empty files
+
+cp a.txt test.txt = A data within the a.txt is copy in test.txt file
+
+mv a.txt b.txt = move the data one file to another file
+
+ls -l /bin = i ca see the bin directory
+
+ls /etc =  open etc dirctory
+
+cat file name = this is printing or show the whole file   
+
+less file name =  you can use arrow key
+
+head file name = shows top ten line
+
+tail file name = shows last ten line  
+
+find . - size +5M = show greater than 5 mb size file in current directory
+
+find . -size +5M -type f =  it is also shows file that are greater than 5 mb
+
+find .  -size +5M -type f | grep .pdf =  output of this find command became and input to the  grep command and using the grep command 
+                                          i said grep all the pdf file 
+                                      two command executed using pipe
+                                          
+cat data.csv | grep -i CAPTAIN = in this command cat data.csv command as input piped with grep command grep -i CAPTAIN which is display only captain job title with all information
+
+grep -ir CAPTAIN =  it is show which file has captain
+
+cat data.csv | grep -v CAPTAIN = it is list or show the data without CAPTAIN job title 
+                                  it means give everything other than captain
+
+env = it shows your environment
+
+ env | grep -i home = by using this command i could check my all details about my home directory
+
+echo $SHELL = it is show a shell type like bash  
+
+echo =  this command is used to display line of text / string 
+
+ls -l/bin/bash = we have show all the files and commnads in bash shell with long format 
+
+bash -version = it is tells the version of bash
+
+du -sh /bin =  display disk usage in human readable form
+
+du -sm /bin= it is display  disk usage in mb
+
+du  -sk /bin = it is display disk usage in kb
+
+ 
+
+
+
+
+
+
+

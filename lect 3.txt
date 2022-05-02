@@ -1,0 +1,23 @@
+terminal commands for each loops :-
+
+
+ touch abc.txt def.txt =  create two txt file
+
+ls *.txt = this command print or show only .txt files
+
+ for file in 'ls *.txt'= by using this command use for loop format
+                         file it is denote variable name or argument
+
+>do =  it entery of a for loop
+
+>echo $file =  it is print file variable
+>folderName=`echo $file | awk -F . '{print $1}'; = it is assign  the data like abc and def into a folderName -F . contain the delemeter is dot 
+>rm -r $foldername = it is delete the folderName;
+>mkdir $folderName = create a directory  
+> cp $file $ folderName = copy the content from file to folderName 
+>done = this keyword close the for loop
+
+
+
+  
+
